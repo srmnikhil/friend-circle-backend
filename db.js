@@ -11,6 +11,5 @@ const connectToMongo = ()=>{
         console.log("Failed to Connect: "+(error));
     });
 }
-
     // Export the function to be used in other files.
 module.exports = connectToMongo;
